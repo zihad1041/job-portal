@@ -1,0 +1,226 @@
+	  //jobs
+      body{
+	    	margin: 0;
+	    	padding: 0;
+	    }
+	    #header{
+       position: fixed;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 60px;
+       background-color: white;
+       border-bottom:3px solid #ccc;
+		}
+		#content{
+      margin-top: 170px;
+			margin-left: 0;
+      overflow: hidden;
+		}
+		.header{
+			list-style: none;
+		}
+		.header li{
+			float: left;
+		}
+		.header li a{
+			display: block;
+			color: #191919;
+			text-decoration: none;
+			font-size: 17px;
+      padding: 8px 15px;
+		}
+		.active{
+			background-color: green;
+			border-radius: 25px;
+		}
+    #search_token{
+      position: fixed;
+      top: 73px;
+      left: 0;
+      width: 100%;
+      height: 96px;
+      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    }
+    #search_token #category{
+        height: 33.33%;
+    }
+    #token{
+      text-align: center;
+      height: 20px;
+      width: 100px;
+      background-color: #eee;
+      border-radius: 25px;
+    }
+    .location_list,.category_list,.skill_list{
+      float: left;
+      height: 20px;
+      width: auto;
+    }
+    .location,.category,.skill,#job_img,#job_tittle{
+      float: left;
+    }
+    @media (min-width: 600px){
+        .location{
+          width: 100px;
+        }
+        .location_list{
+          width: auto;
+        }
+    }
+    @media (min-width: 600px){
+        .category{
+          width: 100px;
+        }
+        .category_list{
+          width: auto;
+        }
+    }
+    @media (min-width: 600px){
+        .skill{
+          width: 100px;
+        }
+        .skill_list{
+          width: auto;
+        }
+    }
+    @media (min-width: 600px){
+        #job_img{
+          width: 30%;
+        }
+        #job_tittle{
+          width: 70%;
+        }
+    }
+    #job{
+      margin-left: 5px;
+      width: 313px; 
+      height: 130px; 
+      border: 1px solid #eee;
+    }
+    #job:hover{
+      background-color: #eee;
+    }
+    #job_heading{
+      float: left;
+      height: 555px;
+      overflow: auto;
+      border-right: 1px solid #eee;
+    }
+    #job_detail{
+      float: left;
+      height: 555px;
+      overflow: auto;
+    }
+    @media (min-width:600px){
+         #job_heading{
+            width: 24%;
+         }
+         #job_detail{
+            width: 73.999%;
+         }
+    }
+    #margin{
+       margin-left: 50px;
+    }
+    .margin{
+       margin-left: 50px;
+    }
+    a{
+      color: black;
+      text-decoration: none !important;
+    }
+
+
+    //index
+    #header{
+       top: 0;
+       left: 0;
+       position: fixed;
+           width: 100%;
+           height: 60px;
+           border-bottom:3px solid #ccc;
+           background-color: white;
+    }
+    #content{
+      margin-top: 70px;
+      margin-left: 0;
+    }
+    .header{
+      list-style: none;
+    }
+    .header li{
+      float: left;
+    }
+    .header li a{
+      display: block;
+      color: #191919;
+      text-decoration: none;
+      font-size: 17px;
+            padding: 8px 15px;
+    }
+    .active{
+      background-color: green;
+      border-radius: 25px;
+    }
+
+    //home
+    #header{
+       top: 0;
+       left: 0;
+       position: fixed;
+           width: 100%;
+           height: 60px;
+           border-bottom:3px solid #ccc;
+           background-color: white;
+    }
+    #sidenav{
+       top: 70px;
+       left: 0;
+       position: fixed;
+           width: 200px;
+           height: 88%;
+           border-right:3px solid #ccc;
+    }
+    #content{
+      margin-top: 70px;
+      margin-left: 200px;
+      height: 1800px;
+      background-color: red;
+    }
+    .sidenav_meno{
+            padding: 0;
+            margin: 0;
+            width: 190px;
+      list-style: none;
+      display: block;
+    }
+    .sidenav_meno_2{
+            margin: 0;
+      list-style: none;
+      display: block;
+    }
+    .sidenav_meno li a{
+      display: block;
+      color: #191919;
+      text-decoration: none;
+      font-size: 17px;
+            padding: 8px 5px;
+    }
+    .sidenav_meno li a:hover{
+      background-color: green;
+      border-radius: 25px;
+      margin-left: 10px;
+      color: white;
+    }
+    .sidenav_meno_2 li a{
+            display: block;
+      color: #191919;
+      text-decoration: none;
+      font-size: 17px;
+            padding: 6px 3px;
+    }
+    .active{
+      background-color: green;
+      border-radius: 25px;
+    }
